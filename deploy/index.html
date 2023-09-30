@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Background Example</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="script.js"> </script>
+</head>
+
+<body onload="startTime()">
+    <div class="video-container">
+        <video autoplay muted loop id="video-bg">
+            <source src="vid_1.mp4" type="video/mp4" id = "video-bg_">
+        </video>
+
+        <div class="content">
+            <div id="clockdate">
+                <div class="clockdate-wrapper">
+                  <div id="clock"></div>
+                  <div id="date"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
